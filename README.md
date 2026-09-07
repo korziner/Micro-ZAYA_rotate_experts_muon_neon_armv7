@@ -73,5 +73,17 @@ The best GPT $100-phone can pretrain from 0
 
 🏃 Начало обучения (1000 шагов)...
 Обучение:   0%|                                                      | 0/805
+```
 
+```
+📊 Анализ метафайлов чекпоинтов:
+Чекпоинт                                      Лосс (последний) Статус
+--------------------------------------------------------------------------------
+checkpoints/39/micro_zaya_step165.safetensors 4.3809          ✅ Хороший
+checkpoints/39/micro_zaya_step170.safetensors 4.3117          ✅ Хороший
+checkpoints/39/micro_zaya_step175.safetensors 4.2800          ✅ Хороший
+checkpoints/39/micro_zaya_step180.safetensors 4.4369          ✅ Хороший
+checkpoints/39/micro_zaya_step185.safetensors 4.3534          ✅ Хороший
+checkpoints/39/micro_zaya_step190.safetensors 4.3392          ✅ Хороший
+checkpoints/39/micro_zaya_step195.safetensors 4.3567          ✅ Хороший
 ```
