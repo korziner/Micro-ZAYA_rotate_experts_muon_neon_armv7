@@ -1,7 +1,8 @@
 # Micro-ZAYA_rotate_experts_muon_neon_armv7
 The best GPT $100-phone can pretrain from 0
 
-```~/deb/nocuda $ python Micro-ZAYA.rotate_experts_rust.py     --skip-search     --max-steps 1000     --rotation-interval 300     --inference-interval 10     --save-every 5     --max-checkpoints 3     --checkpoint-dir checkpoints/39     --corpus corpus.tok16     --precision fp32     --auto-resume
+```
+~/deb/nocuda $ python Micro-ZAYA.rotate_experts_rust.py     --skip-search     --max-steps 1000     --rotation-interval 300     --inference-interval 10     --save-every 5     --max-checkpoints 3     --checkpoint-dir checkpoints/39     --corpus corpus.tok16     --precision fp32     --auto-resume
 
 ✅ Микроэксперты доступны
 [Muon] ✅ Режим data_ptr доступен (быстрый путь через ctypes)
