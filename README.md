@@ -130,6 +130,7 @@ The best GPT $100-phone can pretrain from 0
    Теперь свободно: 1345 МБ
    💾 Чекпоинт: checkpoints/39/micro_zaya_step230.safetensors (230.5 МБ)
 Обучение:   5%|████▊                                                                                            | 40/805 [1:33:09<28:04
+
 ```
 
 ```
