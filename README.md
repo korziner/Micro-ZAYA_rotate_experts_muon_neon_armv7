@@ -1,6 +1,9 @@
 # Micro-ZAYA_rotate_experts_muon_neon_armv7
 The best GPT $100-phone can pretrain from 0
 
+<img width="1024" height="600" alt="image" src="https://github.com/user-attachments/assets/23b5ab39-3dd3-460c-8dd7-44819fda6222" />
+
+
 ```
 clang version 21.1.8
 Target: armv7a-unknown-linux-android24   
