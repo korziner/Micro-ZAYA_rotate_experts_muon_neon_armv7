@@ -2,6 +2,36 @@
 The best GPT $100-phone can pretrain from 0
 
 ```
+clang version 21.1.8
+Target: armv7a-unknown-linux-android24   
+
+cargo 1.98.0 (797e8a9bc 2026-08-05) (built from a source tarball)
+~/deb/nocuda $ python -V     
+Python 3.14.6
+
+pip freeze|rg 'muon|torch|rotat|former|tok|nump|blas'
+expert_rotator @ file:///data/data/com.termux/files/home/deb/nocuda/expert_rotator
+muon==0.1.9
+muon_neon @ file:///data/data/com.termux/files/home/deb/nocuda/muon_neon
+muon_neon_optimized @ file:///data/data/com.termux/files/home/deb/nocuda/muon_neon_optimized
+numpy==2.4.6
+tokenizers @ file:///data/data/com.termux/files/home/deb/tokenizers/bindings/python/target/wheels/tokenizers-0.23.2.dev0-cp310-abi3-android_24_armeabi_v7a.whl#sha256=5297919565604591022dc001efd773099dc421ce70e0383a61bb017c2a8d227c
+torch @ file:///home/builder/.termux-build/python-torch/src
+torchvision @ file:///home/builder/.termux-build/python-torchvision/src
+transformers==5.16.1
+
+dpkg -l|rg 'muon|torch|rotat|former|tok|nump|blas'
+ii  blas-openblas                    0.3.34                          arm          OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE
+ii  clblast                          1.7.0                           arm          Tuned OpenCL BLAS
+ 
+ii  libopenblas                      0.3.34                          arm          An optimized BLAS library based on GotoBLAS2 1.13 BSD
+ii  libopenblas-static               0.3.34                          arm          Static libraries for libopenblas
+ii  python-numpy                     2.4.4-1                         arm          The fundamental package for scientific computing with Python
+ii  python-numpy-static              2.4.4-1                         arm          Static libraries for python-numpy
+ii  python-torch                     2.11.0-2                        arm          Tensors and Dynamic neural networks in Python
+```
+
+```
 ~/deb/nocuda $ python Micro-ZAYA.rotate_experts_rust.py     --skip-search     --max-steps 1000     --rotation-interval 300     --inference-interval 10     --save-every 5     --max-checkpoints 3     --checkpoint-dir checkpoints/39     --corpus corpus.tok16     --precision fp32     --auto-resume
 
 ✅ Микроэксперты доступны
